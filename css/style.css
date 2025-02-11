@@ -1,0 +1,241 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   color: #0A507A;
+}
+li{
+   list-style: none;
+}
+
+body{
+  font-family: "Rethink Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header{
+   background-image: url(../img/Background\ main.png) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+   height: 100vh;
+   position: relative;
+   z-index: 5;
+}
+
+
+.container {
+   max-width: 1720px;
+   margin: 0 auto; 
+}
+
+
+.surfing {
+   position: absolute;
+   top:115px;
+   z-index: 10;
+}
+
+.back_2{
+position: absolute;
+z-index: 20;
+left: -4px;
+top: -4px;
+}
+
+.nav__cont {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 30px;
+   padding-bottom: 250px;
+   position: relative;
+   z-index: 30;
+}
+
+.list{
+   display: flex;
+   gap: 40px;
+   
+}
+
+.list__link{
+   cursor: pointer;
+}
+
+.list__link:hover{
+   color: #2B2A29;
+}
+
+.link__phone {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   padding: 10px 20px;
+   background-color: #0A507A;
+   color: #fff;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+}   
+
+.link__phone:hover{
+   background-color: #157AB3;
+}
+
+.header_content{
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   z-index: 30;
+
+}
+
+.card__head{
+   background-color: rgb(255, 255, 255, .8);
+   display: flex;
+   flex-direction: column;
+   padding: 40px 10px;
+   border: none;
+   border-radius: 10px;
+   text-transform: uppercase;
+}
+.card__img{
+   width: 352px;
+   height: 240px;
+   padding-top: 30px;
+}
+
+.card__title{
+   max-width: 352px;
+   font-size: 32px;
+   font-weight:900;
+   padding-bottom: 10px;
+}
+
+.card__link {
+   color: #2B2A29;
+   font-size: 16px;
+   font-weight:900;
+   text-decoration: underline;
+}
+
+
+
+
+.head__button{
+   padding: 10px 20px;
+   background-color: #2B2A29;
+   border: none;
+   border-radius: 30px;
+   color: #fff;
+   font-family: "Rethink Sans", serif;
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 226px;
+   cursor: pointer;
+}
+
+.head__button:hover{
+   background-color: #0A507A;
+
+}
+
+.list__head{
+max-width: 485px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.item__head{
+ padding: 10px 20px;
+ border: 1px solid #0A507A;
+ border-radius: 30px;
+ font-size: 26px;
+ font-weight: bold;
+}
+
+.item__head:hover{
+   background-color: #0A507A;
+   .link__head{
+      color: #fff;
+   }
+}
+
+.icons__head {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   z-index: 30;
+   padding-top: 40px;
+}
+
+.icons__item{
+   display: flex;
+   gap: 20px;
+}
+
+.icon:hover{
+   background-color: #157AB3;
+   border: none;
+   border-radius: 50%;
+}
+
+.icons__button{
+   display: flex;
+   gap: 20px;
+}
+
+.icons__btn{
+ padding: 10px 20px;
+ text-transform: uppercase;
+ border: none;
+ border-radius: 30px;
+ font-family: "Rethink Sans", serif;
+   font-size: 32px;
+   font-weight: 900;
+   cursor: pointer;
+}
+
+.black,
+.zero:hover {
+   background-color: #2B2A29;
+   color: #fff;
+}
+
+.zero,
+.black:hover{
+   border: 1px solid #2B2A29;
+   background-color: rgb(255, 255, 255, .3);
+   color: #2B2A29;
+}
+
+
+
+
+.section{
+   background-color: #fff;
+}
+
+
+.h1__title{
+   max-width: 1075px;
+   margin: 150px 0;
+   font-size: 64px;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+
+
+
+
+
