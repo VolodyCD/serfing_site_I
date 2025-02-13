@@ -536,6 +536,17 @@ top: 32%;
 }
 
 @media (max-width:530px){
+
+   .header{
+      background-position: right;
+   }
+
+   .item__head,
+   .link__head {
+      border-color: #000000;
+      color: #000000;
+   }
+
    .nav,
    .surfing {
       display: none;
