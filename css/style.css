@@ -465,8 +465,213 @@ span {
    color: #fff;
 }
 
+.sandy__img{
+   max-width: 100%;
+}
+
+
+@media (max-width:850px){
+.vila,
+.sup_doc{
+   flex-direction: column;
+}
+
+.vila {
+   align-items: center;
+   gap: 30px;
+
+}
+.footer__links{
+   padding-top: 30px;
+}
+.sandy__img {
+   margin: 0 auto;
+}
+
+.vila__content {
+   text-align: center;
+}
+
+
+.vila__list {
+   padding-bottom: 50px;
+   align-items: center;
+
+}
+
+.sandy {
+   padding: 0;
+}
+
+.h1__title{
+   font-size: 45px;
+}
+
+
+.sandy__list-item{
+   width: 180px;
+   height: 180px;
+}
+
+.sandy__list-link {
+top: 32%;
+}
+
+.sandy__content{
+   flex-direction: column;
+   text-align: center;
+}
+.back_2{
+   display: none;
+}
+
+.sandy__text{
+   text-align: center;
+   padding-top: 30px;
+}
+
+.vila__img-item {
+   max-width: 100%;
+}
+}
+
+@media (max-width:530px){
+   .nav,
+   .surfing {
+      display: none;
+   }
+   .header_content{
+      flex-direction: column;
+   }
+
+   .card__head {
+      display: none;
+   }
+
+   .head__button {
+      margin-bottom: 20px;
+   }
+
+   .nav__cont{
+      padding-bottom: 30px;
+   }
+
+   .icons__button,
+   .icons__head{
+      flex-direction: column;
+      align-items: center;
+      padding-top: 60px;
+
+   }
+
+   .header_content,
+   .list__head{
+      padding-top: 40px;
+   }
+
+   .h1__title{
+      font-size: 24px;
+      margin: 64px 0;
+   }
+
+   .vila_title{
+      margin: 0;
+      padding-bottom: 45px;
+   }
+
+   .sandy__title{
+      margin: 0;
+   }
+   .sandy__list-link{
+      font-size: 16px;
+   }
+
+   .sandy__list-item{
+      width: 80px;
+      height: 80px;
+   }
+   
 
 
 
 
 
+
+
+
+
+
+
+
+   .logo {
+      flex-direction: column;
+align-items: center;
+   }
+
+   .footer__title{
+      font-size: 28px;
+   }
+
+   .logo__img {
+      width: 150px;
+      padding-top: 30px;
+   }
+
+   .footer__links{
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+   }
+
+   .footer_item{
+      text-align: center;
+   }
+
+   .footer__icons,
+   .IC{
+      flex-direction: column;
+      align-items: center;
+   }
+
+
+   .IC {
+      padding-top: 30px;
+   }
+
+   .sup__item1,
+   .sup__item2 {
+      flex-direction: column;
+      gap: 0;
+   }
+   .sup__img{
+      max-width: 100%;
+   }
+
+   .sup__foto-1{
+      padding-top: 30px;
+   }
+
+   .sup__foto-2, .sup__foto-4{
+      padding-top: 30px;
+
+   }
+   .sup_doc{
+      padding: 0 10px;
+   }
+   .sup{
+      padding-bottom: 30px;
+   }
+
+   .INT{
+      display: block;
+   }
+
+   .sup_content,
+   .sup__title {
+      left: 0;
+      right: 0;
+   
+}
+
+
+}
